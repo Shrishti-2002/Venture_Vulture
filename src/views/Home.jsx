@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <>
       <Hero />
-      <Projects projects={projects} />
+      
       <CreateProject />
       <AddButton />
     </>

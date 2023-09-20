@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import Header from "../Header";
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
     <div className='container-fluid'>
       <Link to="/" className="navbar-brand">
-        Venturepin
+        Venture Vulture
       </Link>
       <button
         className="navbar-toggler"
@@ -48,11 +48,11 @@ function Navbar() {
             </Link>
           </li>
 
-          <li className="nav-item active">
+          {/* <li className="nav-item active">
             <Link to="/myprofile" className="nav-link">
               My-profile
             </Link>
-          </li>
+          </li> */}
 
           <li className="nav-item active">
             <Link to="/investors_profile" className="nav-link">
@@ -60,15 +60,16 @@ function Navbar() {
             </Link>
           </li>
 
-          <li className="nav-item active">
+          {/* <li className="nav-item active">
             <Link to="/incubators" className="nav-link">
               Incubators
             </Link>
-          </li>
+          </li> */}
 
         </ul>
       </div>
       </div>
+      <Header/>
     </nav>
   );
 }

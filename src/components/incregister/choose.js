@@ -7,10 +7,10 @@ function Choose() {
   return (
 
 <div className="outer">
-      <div className="card-group homepg">
-        <div className="card inner border border-white shadow p-3 mb-5 bg-light rounded">
-          <div className="card-body inner-text">
-            <h1 className="card-title">
+      <div className="card-group homepg align-middle">
+        <div className="card inner border border-white shadow p-3 mb-5 bg-light rounded ">
+          <div className="card-body inner-text align-middle">
+            <h1 className="card-title align-middle">
             <Link to="/investor" className="nav-link">
             Are you an Investor?
             </Link>

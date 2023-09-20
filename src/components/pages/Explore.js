@@ -29,7 +29,7 @@ function Explore() {
         cardbody="Major B2B contract secured with a subsidiary of the largest insurance company in U.S.—go live: 2023"
         cardfooter="updated 20 hours ago"
       />
-      <Company/>
+      {/* <Company/> */}
     </div>
   );
 }

@@ -13,6 +13,15 @@ const AddButton = () => {
       >
         <BsPlusLg className='font-bold' size={20} />
       </button>
+      {/* <button
+        type="button"
+        className="flex justify-center items-center w-9 h-9 bg-green-600
+        text-white font-medium text-xs leading-tight uppercase
+        rounded-full shadow-md hover:bg-green-700"
+        onClick={() => }
+      >
+        <BsPlusLg className='font-bold' size={20} />
+      </button> */}
     </div>
   )
 }

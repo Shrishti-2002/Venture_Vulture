@@ -11,8 +11,8 @@ function Contactus() {
     <div className="container">
     <Choose/>
       <Working />
-      <Investor />
-      <Startup />
+      {/* <Investor />
+      <Startup /> */}
     </div>
   );
 }

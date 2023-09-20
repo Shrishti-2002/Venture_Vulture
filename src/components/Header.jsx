@@ -8,23 +8,23 @@ const Header = () => {
 
   return (
     <header
-      className="flex justify-between items-center
-        p-5 bg-white shadow-lg fixed top-0 left-0 right-0"
+      // className="flex justify-between items-center
+      //   p-5 bg-white shadow-lg fixed top-0 left-0 right-0"
     >
-      <Link
+      {/* <Link
         to="/"
         className="flex justify-start items-center
       text-xl text-black space-x-1"
       >
-        <span>Venture Vulture</span>
+        
         <TbBusinessplan />
-      </Link>
+      </Link> */}
 
       <div className="flex space-x-2 justify-center">
         {connectedAccount ? (
           <button
             type="button"
-            className="inline-block px-6 py-2.5 bg-green-600
+            className="eth inline-block px-6 py-2.5 
             text-white font-medium text-xs leading-tight uppercase
             rounded-full shadow-md hover:bg-green-700"
           >
@@ -33,9 +33,9 @@ const Header = () => {
         ) : (
           <button
             type="button"
-            className="inline-block px-6 py-2.5 bg-green-600
+            className="inline-block px-9 py-1 
             text-white font-medium text-xs leading-tight uppercase
-            rounded-full shadow-md hover:bg-green-700"
+            rounded-full shadow-md blogbutton"
             onClick={connectWallet}
           >
             Connect Wallet

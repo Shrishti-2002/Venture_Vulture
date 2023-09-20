@@ -17,6 +17,7 @@ import Incubators from "./components/pages/Incubators";
 import Investor from "./components/pages/Investor";
 import Startup from "./components/pages/Startup";
 
+
 const App = () => {
   const [loaded, setLoaded] = useState(false)
 
@@ -32,6 +33,7 @@ const App = () => {
       {loaded ? (
         <Routes>
           <Route path="/" element={<Home />} />
+          {/* <Route path='/chatbot' element={<Chatbot/>}/> */}
           <Route path="/projects/:id" element={<Project />} />
           <Route exact path="/about" element={<About />}></Route>
           <Route exact path="/contact" element={<Contact />}></Route>

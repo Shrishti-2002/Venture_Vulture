@@ -14,7 +14,7 @@ import { BsQuestionSquareFill } from "react-icons/bs";
         <div className="vh-20">
       <MDBContainer>
         <MDBRow className="justify-content-start">
-          <MDBCol md="9" sm="7" className="mt-4">
+          <MDBCol md="6" sm="7" className="mt-4">
             <MDBCard style={{ borderRadius: '15px' }}>
               <MDBCardBody className="p-2">
                 <div className="d-flex text-black">
@@ -59,7 +59,7 @@ import { BsQuestionSquareFill } from "react-icons/bs";
         </Col>
         <Col sm={3}>
         
-        <Accordion className='mt-4'>
+        <Accordion className='mt-4 mx-4'>
        
       <Accordion.Item eventKey="0">
         <Accordion.Header><ImHistory color="#17a2b8" size={40} />

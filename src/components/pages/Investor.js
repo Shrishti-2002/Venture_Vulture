@@ -16,6 +16,7 @@ function Investor() {
   });
   let name ,value;
   const handleInput=(e)=>{
+    console.log(e);
     name=e.target.name;
     value=e.target.value;
     setUser({...user,[name]:value});
@@ -27,18 +28,18 @@ function Investor() {
       method:'POST',
       headers:{
         'Content-Type':"application/json",
-
       },
       body:JSON.stringify({
         name,username,email,password,city,state,pincode,linkedinID,description
       })
-    });
+    })
     const data=await res.json();
     if(data.status===422 || !data){
       console.log("reg not successful")
     }
     else{
-      navigate("/login");
+      console.log('reg successful');
+      navigate("/");
     }
   }
 
@@ -49,7 +50,7 @@ function Investor() {
       Let's get started! To begin your journey we request you to fill the form which should take
         around 2-3 minutes to complete.
       </h6>
-      <form method="post">
+      <form method="post" className="form-data" id="form-data">
         <br />
         <div className="row">
           <div className="col-6">

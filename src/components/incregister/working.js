@@ -2,7 +2,7 @@ import React from "react";
 
 function Working() {
   return (
-    <div className="container worktips">
+    <div className="container worktips mb-4">
     <div className="jumbotron ">
       <h3 className="working">This is how the platform functions</h3>
       <hr className="my-4" />
